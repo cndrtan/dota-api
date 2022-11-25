@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B56252B2930944A0090D8B8 /* FilterModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B56252A2930944A0090D8B8 /* FilterModalView.swift */; };
+		2B9F3BC0292FAD2300CC3E97 /* dota_apiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9F3BBF292FAD2300CC3E97 /* dota_apiApp.swift */; };
+		2B9F3BC2292FAD2300CC3E97 /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9F3BC1292FAD2300CC3E97 /* HeroView.swift */; };
+		2B9F3BC4292FAD2400CC3E97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B9F3BC3292FAD2400CC3E97 /* Assets.xcassets */; };
+		2B9F3BC7292FAD2400CC3E97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B9F3BC6292FAD2400CC3E97 /* Preview Assets.xcassets */; };
+		2B9F3BCE292FAE1700CC3E97 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9F3BCD292FAE1700CC3E97 /* ApiService.swift */; };
+		2B9F3BD0292FAE5700CC3E97 /* heroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9F3BCF292FAE5700CC3E97 /* heroModel.swift */; };
+		2B9F3BD5292FBDC700CC3E97 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9F3BD4292FBDC700CC3E97 /* Constant.swift */; };
+		2B9F3BD729305E0900CC3E97 /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9F3BD629305E0900CC3E97 /* URLImage.swift */; };
+		2B9F3BD929306DC000CC3E97 /* DetailHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9F3BD829306DC000CC3E97 /* DetailHeroView.swift */; };
+		2BA543CB29313E0B007FE07D /* HeroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA543CA29313E0B007FE07D /* HeroViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B56252A2930944A0090D8B8 /* FilterModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterModalView.swift; sourceTree = "<group>"; };
+		2B9F3BBC292FAD2300CC3E97 /* dota-api.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dota-api.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9F3BBF292FAD2300CC3E97 /* dota_apiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dota_apiApp.swift; sourceTree = "<group>"; };
+		2B9F3BC1292FAD2300CC3E97 /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
+		2B9F3BC3292FAD2400CC3E97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B9F3BC6292FAD2400CC3E97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2B9F3BCD292FAE1700CC3E97 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		2B9F3BCF292FAE5700CC3E97 /* heroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heroModel.swift; sourceTree = "<group>"; };
+		2B9F3BD4292FBDC700CC3E97 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		2B9F3BD629305E0900CC3E97 /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
+		2B9F3BD829306DC000CC3E97 /* DetailHeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeroView.swift; sourceTree = "<group>"; };
+		2BA543CA29313E0B007FE07D /* HeroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B9F3BB9292FAD2300CC3E97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B9F3BB3292FAD2300CC3E97 = {
+			isa = PBXGroup;
+			children = (
+				2B9F3BBE292FAD2300CC3E97 /* dota-api */,
+				2B9F3BBD292FAD2300CC3E97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B9F3BBD292FAD2300CC3E97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B9F3BBC292FAD2300CC3E97 /* dota-api.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B9F3BBE292FAD2300CC3E97 /* dota-api */ = {
+			isa = PBXGroup;
+			children = (
+				2B9F3BBF292FAD2300CC3E97 /* dota_apiApp.swift */,
+				2B9F3BCD292FAE1700CC3E97 /* ApiService.swift */,
+				2B9F3BD629305E0900CC3E97 /* URLImage.swift */,
+				2B9F3BD4292FBDC700CC3E97 /* Constant.swift */,
+				2BA543CC29316912007FE07D /* ViewModel */,
+				2B9F3BDA29306DC600CC3E97 /* View */,
+				2B9F3BD1292FAE6500CC3E97 /* Model */,
+				2B9F3BC3292FAD2400CC3E97 /* Assets.xcassets */,
+				2B9F3BC5292FAD2400CC3E97 /* Preview Content */,
+			);
+			path = "dota-api";
+			sourceTree = "<group>";
+		};
+		2B9F3BC5292FAD2400CC3E97 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2B9F3BC6292FAD2400CC3E97 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2B9F3BD1292FAE6500CC3E97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B9F3BCF292FAE5700CC3E97 /* heroModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B9F3BDA29306DC600CC3E97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B9F3BC1292FAD2300CC3E97 /* HeroView.swift */,
+				2B56252A2930944A0090D8B8 /* FilterModalView.swift */,
+				2B9F3BD829306DC000CC3E97 /* DetailHeroView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2BA543CC29316912007FE07D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2BA543CA29313E0B007FE07D /* HeroViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B9F3BBB292FAD2300CC3E97 /* dota-api */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B9F3BCA292FAD2400CC3E97 /* Build configuration list for PBXNativeTarget "dota-api" */;
+			buildPhases = (
+				2B9F3BB8292FAD2300CC3E97 /* Sources */,
+				2B9F3BB9292FAD2300CC3E97 /* Frameworks */,
+				2B9F3BBA292FAD2300CC3E97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dota-api";
+			productName = "dota-api";
+			productReference = 2B9F3BBC292FAD2300CC3E97 /* dota-api.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B9F3BB4292FAD2300CC3E97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					2B9F3BBB292FAD2300CC3E97 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B9F3BB7292FAD2300CC3E97 /* Build configuration list for PBXProject "dota-api" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B9F3BB3292FAD2300CC3E97;
+			productRefGroup = 2B9F3BBD292FAD2300CC3E97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B9F3BBB292FAD2300CC3E97 /* dota-api */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B9F3BBA292FAD2300CC3E97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9F3BC7292FAD2400CC3E97 /* Preview Assets.xcassets in Resources */,
+				2B9F3BC4292FAD2400CC3E97 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B9F3BB8292FAD2300CC3E97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9F3BD729305E0900CC3E97 /* URLImage.swift in Sources */,
+				2B9F3BC2292FAD2300CC3E97 /* HeroView.swift in Sources */,
+				2B9F3BD929306DC000CC3E97 /* DetailHeroView.swift in Sources */,
+				2B9F3BD0292FAE5700CC3E97 /* heroModel.swift in Sources */,
+				2B9F3BC0292FAD2300CC3E97 /* dota_apiApp.swift in Sources */,
+				2BA543CB29313E0B007FE07D /* HeroViewModel.swift in Sources */,
+				2B9F3BCE292FAE1700CC3E97 /* ApiService.swift in Sources */,
+				2B56252B2930944A0090D8B8 /* FilterModalView.swift in Sources */,
+				2B9F3BD5292FBDC700CC3E97 /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B9F3BC8292FAD2400CC3E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B9F3BC9292FAD2400CC3E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B9F3BCB292FAD2400CC3E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dota-api/Preview Content\"";
+				DEVELOPMENT_TEAM = NKVX3X5685;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.candra.dota-api";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B9F3BCC292FAD2400CC3E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dota-api/Preview Content\"";
+				DEVELOPMENT_TEAM = NKVX3X5685;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.candra.dota-api";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B9F3BB7292FAD2300CC3E97 /* Build configuration list for PBXProject "dota-api" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9F3BC8292FAD2400CC3E97 /* Debug */,
+				2B9F3BC9292FAD2400CC3E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B9F3BCA292FAD2400CC3E97 /* Build configuration list for PBXNativeTarget "dota-api" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9F3BCB292FAD2400CC3E97 /* Debug */,
+				2B9F3BCC292FAD2400CC3E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B9F3BB4292FAD2300CC3E97 /* Project object */;
+}
