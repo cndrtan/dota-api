@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B56252B2930944A0090D8B8 /* FilterModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B56252A2930944A0090D8B8 /* FilterModalView.swift */; };
 		2B9F3BC0292FAD2300CC3E97 /* dota_apiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9F3BBF292FAD2300CC3E97 /* dota_apiApp.swift */; };
 		2B9F3BC2292FAD2300CC3E97 /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9F3BC1292FAD2300CC3E97 /* HeroView.swift */; };
 		2B9F3BC4292FAD2400CC3E97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B9F3BC3292FAD2400CC3E97 /* Assets.xcassets */; };
@@ -21,7 +20,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2B56252A2930944A0090D8B8 /* FilterModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterModalView.swift; sourceTree = "<group>"; };
 		2B9F3BBC292FAD2300CC3E97 /* dota-api.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dota-api.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B9F3BBF292FAD2300CC3E97 /* dota_apiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dota_apiApp.swift; sourceTree = "<group>"; };
 		2B9F3BC1292FAD2300CC3E97 /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
@@ -98,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				2B9F3BC1292FAD2300CC3E97 /* HeroView.swift */,
-				2B56252A2930944A0090D8B8 /* FilterModalView.swift */,
 				2B9F3BD829306DC000CC3E97 /* DetailHeroView.swift */,
 			);
 			path = View;
@@ -189,7 +186,6 @@
 				2B9F3BC0292FAD2300CC3E97 /* dota_apiApp.swift in Sources */,
 				2BA543CB29313E0B007FE07D /* HeroViewModel.swift in Sources */,
 				2B9F3BCE292FAE1700CC3E97 /* ApiService.swift in Sources */,
-				2B56252B2930944A0090D8B8 /* FilterModalView.swift in Sources */,
 				2B9F3BD5292FBDC700CC3E97 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
